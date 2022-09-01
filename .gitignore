@@ -1,2 +1,4 @@
 *.map
-sass/*.css
+/sass/*.css
+/sass/layout/*.css
+/sass/utils/*.css
