@@ -1,7 +1,5 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
-
 *,
 ::before,
 ::after {
@@ -12,7 +10,8 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-h1{
-    margin: 0px;
-    padding: 0px;
-  }
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}/*# sourceMappingURL=base.css.map */

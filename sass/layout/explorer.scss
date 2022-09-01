@@ -1,8 +1,22 @@
+@use "../utils/box-shadow.scss";
+@use "../utils/colors.scss";
+
+.explorer {
+    text-align: center;
+    background-color: colors.$lightgrey;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    & h2 {
+        margin: 0;
+    }
+}
 .colorgradient {
     width: 217px;
     height: 53px;
     border: 1px;
     border-radius: 36px;
     background: linear-gradient(to bottom right, #FF72DA, #9356dc);
+    //box-shadow: 0px 1px 5px black;
+    @include box-shadow.base-shadow;
     color: white;
 } 

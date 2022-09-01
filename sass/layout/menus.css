@@ -1,0 +1,34 @@
+.menus {
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+.menus .menus__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+@media (max-width: 767px) {
+  .menus .menus__card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.menus .card {
+  min-width: 300px;
+}
+.menus .card__image {
+  height: 300px;
+  border-radius: 20px;
+  background-size: cover;
+}
+.menus .card__image-1 {
+  background-image: url(assets/menu-1.jpg);
+}
+.menus .card__image-2 {
+  background-image: url(assets/menu-2.jpg);
+}
+.menus .card__image-3 {
+  background-image: url(assets/menu-3.jpg);
+}
+.menus .card__image-4 {
+  background-image: url(assets/menu-4.jpg);
+}/*# sourceMappingURL=menus.css.map */
