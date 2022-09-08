@@ -1,0 +1,68 @@
+@use "../../utils/linear-gradient.scss";
+h4{
+    font-family: "Shrikhand", cursive;
+    font-size: 20px;
+}
+.menu {
+    background-color: lightgrey;
+}
+
+.menu__entrées{
+    display: flex;
+    flex-direction: column;
+gap: 20px;
+}
+
+.menu__entrées--title {
+    margin-top: 42px;
+    margin-bottom: 22px;
+}
+
+
+.menu__entrées--1 {
+   position: relative;
+    border: 1px solid black;
+background-color: white ;
+border-radius: 20px;
+padding: 4px}
+
+    .menu__entrées--check{        position: absolute;
+        right: 20px;
+        top: 50%;
+    } 
+
+
+.menu__title {
+
+    display: flex;
+    justify-content: space-between;
+
+    i {
+        font-size: 30px;
+        position: absolute;
+    right: 60px;}
+
+    &--heart {
+        position: relative;
+        height: 30px;
+
+        &:hover .fas {
+            opacity: 1;
+        }
+
+    }
+}
+
+
+.btn {
+    margin: 94px 438px;
+    padding: 5px;
+    border: solid 1px transparent;
+    border-radius: 20px;
+    @include linear-gradient.colorgradient;
+    width: 170px;
+    height: 40px;
+    color: white
+    ;
+    
+}

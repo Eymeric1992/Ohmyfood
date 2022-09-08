@@ -1,0 +1,32 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.621);
+    height: 210px;
+    color: white;
+    padding: 20px;
+
+    &__title {
+        font-family: "Shrikhand", cursive;
+        font-size: 20px;
+    }
+
+    &__icon {
+        margin-top: 20px;
+    }
+
+    
+}
+
+
+.footer__icon--align {
+    gap: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid, .fas {
+    width: 10px;
+}
+
+p {
+    margin: 3px;
+}

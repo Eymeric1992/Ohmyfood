@@ -3,16 +3,32 @@
 @use "../utils/colors.scss";
 
 .functioning {
-    padding: 20px;
     counter-reset: steps;
+
+    h2 {
+        margin-left: 10px;
+    }
 
     & ol {
         display: flex;
-        gap: 15px;
+        gap: 20px;
+        margin: 39px 24px 37px 25px;
 
-        @media (max-width: 762px) {
-            flex-direction: column;
+        flex-direction: column;
+        padding: 0px;
 
+
+
+
+
+    }
+
+    @media screen and (min-width:928px) {
+
+        ol {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
         }
     }
 
@@ -22,13 +38,13 @@
             counter-increment: steps;
             color: white;
             background: colors.$primary;
-            height: 30*variables.$base-height;   
+            height: 30*variables.$base-height;
             width: 30*variables.$base-height;
             display: grid;
             place-items: center;
             border-radius: 50%;
             position: absolute;
-            bottom: 13  *variables.$base-height;
+            bottom: 13 *variables.$base-height;
             left: -14 * variables.$base-height;
         }
 
@@ -43,6 +59,7 @@
         & i.fas {
             padding: 15px;
             color: #7e7e7e;
+            width: 55px;
         }
     }
 }

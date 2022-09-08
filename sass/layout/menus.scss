@@ -1,15 +1,37 @@
+@use "../utils/colors.scss";
+@use "../utils/linear-gradient.scss";
+
+
+
 .menus {
-    background-color: #f6f6f6;
+    background-color: rgba(126, 126, 126, 0.1058823529);
     padding: 20px;
 
 
     .menus__card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 30px;
 
         @media (max-width: 767px) {
             grid-template-columns: repeat(1, 1fr);
+        }
+
+        .nouveau {
+            position: relative;
+        }
+
+        .nouveau::before {
+            color: rgb(10, 111, 78);
+            content: "Nouveau";
+            position: absolute;
+            height: 31px;
+            width: 90px;
+            background-color: #99E2D0;
+            text-align: center;
+            right: 11px;
+            top: 16px;
+            padding: 6px;
         }
     }
 
@@ -17,11 +39,59 @@
     .card {
         min-width: 300px;
 
-        &__image {
-          
+ 
 
-            height: 300px;
-            border-radius: 20px;
+        &__description {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: white;
+
+            &--heart {
+                position: relative;
+                height: 30px;
+
+                &:hover .fas {
+                    opacity: 1;
+                }
+
+            }
+
+        }
+
+        h3 {
+            margin-top: 0;
+            margin-bottom: 3px;
+        }
+
+        i {
+            font-size: 30px;
+            position: absolute;
+            //* right: 37px;
+            //*top: 50%;
+            //*transform: translateY(-50%)
+        }
+
+        .far {
+            right: 17px;
+        }
+
+        .fas {
+            right: 17px;
+            width: 30px;
+            color: transparent;
+            @include linear-gradient.colorgradient;
+            background-clip: text;
+            opacity: 0;
+        }
+
+
+        &__image {
+
+
+            height: 220px;
+            border-radius: 20px 20px 0px 0px;
             background-size: cover;
 
         }
@@ -49,4 +119,6 @@
         }
 
     }
+
+
 }
