@@ -3,6 +3,10 @@
 
 .explorer {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
     background-color: colors.$lightgrey;
     padding-bottom: 50px;
     padding-top: 30px;

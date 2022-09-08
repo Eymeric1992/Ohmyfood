@@ -53,9 +53,15 @@ padding: 4px}
     }
 }
 
-
+.divbtn {
+    height: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
 .btn {
-    margin: 94px 438px;
+    margin: 94px 50px;
     padding: 5px;
     border: solid 1px transparent;
     border-radius: 20px;

@@ -30,9 +30,23 @@ header {
   margin: 0;
   position: relative;
 }
-header h2,
-header i {
-  font-size: 3px;
+
+.header--withBackArrow {
+  position: relative;
+}
+
+.header__arrow {
+  position: absolute;
+  left: 2rem;
+  height: 2rem;
+  width: 2rem;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: black;
 }
 
 .city {
@@ -52,6 +66,10 @@ header i {
 
 .explorer {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
   background-color: rgba(126, 126, 126, 0.1058823529);
   padding-bottom: 50px;
   padding-top: 30px;
@@ -208,6 +226,9 @@ header i {
   color: white;
   padding: 20px;
 }
+.footer i {
+  font-size: 15px;
+}
 .footer__title {
   font-family: "Shrikhand", cursive;
   font-size: 20px;
@@ -282,6 +303,7 @@ h4 {
 .menu__title i {
   font-size: 30px;
   position: absolute;
+  right: 60px;
 }
 .menu__title--heart {
   position: relative;
@@ -291,8 +313,16 @@ h4 {
   opacity: 1;
 }
 
+.divbtn {
+  height: 172px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
 .btn {
-  margin: 94px 438px;
+  margin: 94px 50px;
   padding: 5px;
   border: solid 1px transparent;
   border-radius: 20px;

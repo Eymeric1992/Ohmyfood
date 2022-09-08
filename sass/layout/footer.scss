@@ -4,6 +4,10 @@
     color: white;
     padding: 20px;
 
+    & i {
+        font-size: 15px;
+    }
+
     &__title {
         font-family: "Shrikhand", cursive;
         font-size: 20px;
