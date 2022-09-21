@@ -1,6 +1,6 @@
 @use "../../utils/linear-gradient.scss";
 @use "../../utils/colors.scss";
- 
+
 
 
 h4 {
@@ -43,21 +43,27 @@ h5 {
     .menu__card {
         margin-bottom: 72px;
     }
+
     .menu__order--title {
         margin-top: 42px;
     }
-    @media (min-width: 900px){
-.menu__content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);  
-    gap: 20px;
-}
 
-
-.menu__order--title{
-    margin: 0px;
-}
+    @media (min-width: 900px) {
+        .menu__content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        @media (max-width: 1115px){
+        .menu__start {
+            width: 280px;
+        }
     }
+        .menu__order--title {
+            margin: 0px;
+        }
+    }
+
     .fa-heart {
         font-size: 30px;
     }
@@ -75,7 +81,8 @@ h5 {
         opacity: 1;
         background: linear-gradient(to bottom right, #FF72DA, #9356dc);
         -webkit-background-clip: text;
-        background-clip: text;     filter: drop-shadow(1px 1px 4px #9144dd);
+        background-clip: text;
+        filter: drop-shadow(1px 1px 4px #9144dd);
 
     }
 
@@ -85,14 +92,14 @@ h5 {
         top: 27px;
     }
 
-   
+
 
     .menu___start,
     .menu__plats {
         margin-bottom: 15px;
     }
 
-   
+
 
     .menu__order--underscore {
         color: colors.$tertiary;
@@ -211,8 +218,8 @@ h5 {
     }
 }
 
- 
- 
+
+
 
 .divbtn {
     height: 95px;
@@ -248,8 +255,5 @@ h5 {
         background-color: #fff;
         box-shadow: 2px 1px 20px 3px #000000;
 
-  }
+    }
 }
-
-
-   

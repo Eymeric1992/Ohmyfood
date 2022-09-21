@@ -768,6 +768,13 @@ h5 {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+}
+@media (min-width: 900px) and (max-width: 1115px) {
+  .menu .menu__start {
+    width: 280px;
+  }
+}
+@media (min-width: 900px) {
   .menu .menu__order--title {
     margin: 0px;
   }
