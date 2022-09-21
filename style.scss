@@ -1,4 +1,5 @@
 @use "./sass/base";
+@use "../sass/sass/layout/loader.scss";
 @use "./sass/layout/header";
 @use "./sass/layout/city";
 @use "./sass/layout/explorer";
@@ -7,4 +8,5 @@
 @use "./sass/layout/footer";
 @use "../sass/sass/layout/pagedesrestaurants/image";   
 @use "../sass/sass/layout/pagedesrestaurants/menupages";
- 
+@use "../sass/sass/utils/buttons.scss";
+@use "../sass/sass/utils/linear-gradient.scss";

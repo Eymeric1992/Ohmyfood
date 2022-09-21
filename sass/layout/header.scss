@@ -1,3 +1,5 @@
+
+
 header {
     font-family: "Shrikhand", cursive;
     text-align: center;
@@ -5,38 +7,5 @@ header {
     padding: 0.3rem;
     margin: 0;
     position: relative;
-
-   
 }
-
-
-
-
-.header--withBackArrow {
-    position: relative;
-}
-
-.header__arrow {
-    position: absolute;
-    left: 2rem;
-    height: 2rem;
-    width: 2rem;
-    top: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(-50%);
-    font-size: 1.2rem;
-    color: black;
-}
-
-.fa-arrow-left {
-    position: relative;
-    top: 13px;
-    left: -57px;
-}
-
-
-i.toparrow {
-    top: 14px;
-}
+ 

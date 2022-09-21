@@ -1,5 +1,5 @@
 .footer {
-    background-color:#353535;
+    background-color: #353535;
     color: white;
     padding: 20px;
 
@@ -16,20 +16,25 @@
         margin-top: 20px;
     }
 
-    
-}
+    .footer__link {
+        color: #fff;
+        text-decoration: none;
+
+    }
 
 
-.footer__icon--align {
-    gap: 19px;
-    display: flex;
-    align-items: center;
-}
+    .footer__icon--align {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
 
-.fa-solid, .fas {
-    width: 10px;
-}
+    .fa-solid,
+    .fas {
+        width: 10px;
+    }
 
-p {
-    margin: 3px;
+    p {
+        margin: 3px;
+    }
 }
