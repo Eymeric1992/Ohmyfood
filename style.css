@@ -768,9 +768,6 @@ h5 {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-  .menu .menu__start {
-    width: 269px;
-  }
   .menu .menu__order--title {
     margin: 0px;
   }
