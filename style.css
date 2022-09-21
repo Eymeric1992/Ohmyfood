@@ -30,7 +30,7 @@ a {
   left: 0;
   bottom: 0;
   background: white;
-  opacity: 0.9;
+  opacity: 99%;
   z-index: 1;
   -webkit-animation: disappear 200ms 3s forwards;
           animation: disappear 200ms 3s forwards;
