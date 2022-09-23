@@ -360,7 +360,6 @@ header {
   background-color: #686868;
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   transition-duration: 0.25s;
-  box-shadow: 0.25rem 0.25rem 10pxrgba 0, 0, 0, 0.25;
   cursor: pointer;
 }
 .explorer .btn1:hover {
