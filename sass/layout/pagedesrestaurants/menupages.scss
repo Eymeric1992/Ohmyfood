@@ -54,6 +54,9 @@ h5 {
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
         }
+        br {
+            display: none;
+        }
         @media (max-width: 1115px){
         .menu__start {
             width: 280px;
